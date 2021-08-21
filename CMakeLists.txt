@@ -9,7 +9,7 @@ project(gym_ros)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   rospy
-  stds_msg
+  std_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -104,7 +104,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES gym_ros
-#  CATKIN_DEPENDS rospy stds_msg
+#  CATKIN_DEPENDS rospy std_msgs
 #  DEPENDS system_lib
 )
 
