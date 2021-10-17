@@ -1,6 +1,6 @@
 {
-	"name": "Robotics AI",
-	"image": "roboticsai:dev",
+	"name": "Gym ROS",
+	"image": "gym_ros",
 	"settings": { 
 		"terminal.integrated.defaultProfile.linux": "bash",
 		"python.pythonPath": "/usr/bin/python3",
@@ -25,7 +25,8 @@
         "ms-azuretools.vscode-docker",
 		"yzhang.markdown-all-in-one",
         "github.vscode-pull-request-github",
-        "vtrois.gitmoji-vscode"
+        "vtrois.gitmoji-vscode",
+        "bierner.markdown-emoji"
     ],
     "mounts": [
         "source=projectname-bashhistory,target=/commandhistory,type=volume"
