@@ -1,0 +1,35 @@
+{
+	"name": "Gym ROS",
+	"image": "gym_ros",
+	"settings": { 
+		"terminal.integrated.defaultProfile.linux": "bash",
+		"python.pythonPath": "/usr/bin/python3",
+        "python.linting.pylintEnabled": false,
+        "python.linting.flake8Enabled": true,
+        "python.linting.enabled": true,
+		"python.formatting.blackPath": "/home/developer/.local/bin/black",
+		"python.linting.flake8Path": "/home/developer/.local/bin/flake8",
+		"python.linting.mypyPath": "/home/developer/.local/bin/mypy"
+	},
+    "workspaceMount": "source=${localEnv:HOME}/catkin_ws,target=/home/developer/catkin_ws,type=bind,consistency=delegate",
+    "workspaceFolder": "/home/developer/catkin_ws/src/gym_ros",
+    "extensions": [
+		"dbaeumer.vscode-eslint",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "njpwerner.autodocstring",
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+        "zhuangtongfa.material-theme",
+        "pkief.material-icon-theme",
+        "ms-azuretools.vscode-docker",
+		"yzhang.markdown-all-in-one",
+        "github.vscode-pull-request-github",
+        "vtrois.gitmoji-vscode",
+        "bierner.markdown-emoji"
+    ],
+    "mounts": [
+        "source=projectname-bashhistory,target=/commandhistory,type=volume"
+    ],
+    "remoteUser": "developer"
+}
